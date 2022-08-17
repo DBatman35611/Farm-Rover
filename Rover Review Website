@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+<body body style="background-color:#DDDDDD">>
+<style>
+    .heading{
+          font-size: 70px;
+          background-color: #EEEEEE;
+          font-weight: 600;
+          background-image: linear-gradient(to left, #553c9a, #b393d3);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-align: center;
+    }
+    .button{
+        width:100px;
+        height:50px;
+        background-color:#00FF00;
+    }
+    .form_class{
+        margin: 30px;
+        color:#000000;
+    }
+</style>
+<marquee>
+<h1 class="heading">Farm Rover</h1>
+</marquee>
+
+<p> Rate your experience with our product</p>
+<form class = "form_class">
+  <input type="radio" id="html" name="fav_language" value="1">
+  <label for="html">1</label><br>
+  <input type="radio" id="css" name="fav_language" value="2">
+  <label for="css">2</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="3">
+  <label for="javascript">3</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="4">
+  <label for="javascript">4</label><br>
+    <input type="radio" id="javascript" name="fav_language" value="5">
+  <label for="javascript">5</label><br>
+    <input type="radio" id="javascript" name="fav_language" value="6">
+  <label for="javascript">6</label><br>
+    <input type="radio" id="javascript" name="fav_language" value="7">
+  <label for="javascript">7</label><br>
+    <input type="radio" id="javascript" name="fav_language" value="8">
+  <label for="javascript">8</label><br>
+    <input type="radio" id="javascript" name="fav_language" value="9">
+  <label for="javascript">9</label><br>
+    <input type="radio" id="javascript" name="fav_language" value="10">
+  <label for="javascript">10</label><br>
+  <div></div>
+  </div>
+  <form action="/action_page.php">
+  <label for="fname">Feed back</label><br>
+  <input type="text" id="" name="fname" value=""><br>
+    <label for="fname">Name</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+
+  <input type="submit" value="Submit">
+</form>
+</form>
+
+  </div>
+</div>
+<!-- Certain code was taken by bootstrap -->
+</body>
+</html>
